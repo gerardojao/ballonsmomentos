@@ -1089,7 +1089,7 @@ footer .rrss a [title]{
   } */
   .navbar{
 	
-	  padding:5px;
+	  padding:10px;
   }
   .navbar__logoMobile{
 	  padding: 5px;
@@ -1193,7 +1193,11 @@ footer .rrss a [title]{
             background: none;
         }
 	
-
+		.service__content--card{
+		
+			min-height: 180px;
+		
+		}
 	
 	
 }
