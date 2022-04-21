@@ -43,6 +43,9 @@ html{
 	font-size:16px;
    
 }
+.navbar__logoMobile{
+	display:none;
+}
 .sticky{
 	padding:5px 0;
  	background: var(--fifth-color);  
@@ -473,6 +476,8 @@ margin:auto;
 	transform: translateX(-50%);
 	padding: 5px;
 	font-size: 20px;
+	
+	width:50%;
   }
  
  
@@ -1079,11 +1084,32 @@ footer .rrss a [title]{
 }
 
 @media (max-width:480px){
-  body{
-      font-size:14px;
+  /* body{
+      font-size:14px
+  } */
+  .navbar{
+	
+	  padding:5px;
   }
-.navbar__logo--a{
-	font-size: 10px
+  .navbar__logoMobile{
+	  padding: 5px;
+	display:flex;
+	width: 40%;
+}
+.navbar__logoMobile h2{
+	font-size:2rem;
+	font-family:Imperial;
+} 
+
+  .navbar__logo{
+	display:none;
+  }
+
+.navbar__logo--spanMobile{
+	color: #ffc3ff;
+	font-size:2rem;
+	
+	font-family:Imperial;
 }
   .home__content{
    display:flex;
