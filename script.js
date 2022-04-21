@@ -21,6 +21,9 @@ const close = d.querySelector(".close-btn")
 
 const pModal=d.querySelector(".pattern")
 
+const punto = d.querySelectorAll(".punto")
+const grande = d.querySelector(".grande")
+const puntos = d.querySelector(".puntos")
 
 
 /* menu hamburguesa*/
@@ -97,13 +100,13 @@ d.addEventListener("submit",e=>{
 
   textarea.classList.replace("mensaje-js","mensaje")
 
-  fetch("https://formsubmit.co/ajax/gerardojao@gmail.com",{
+  fetch("https://formsubmit.co/ajax/balloonsmomentos@gmail.com",{
       method:"POST",
       body: new FormData(e.target)
   })
     .then(res=>res.ok ? res.json() : Promise.reject(res))
     .then(json=>{
-        
+        console.log(json)
         content.classList.remove("content__hide")
         pModal.innerHTML =` ${inputs[0].value}`
     })
@@ -133,6 +136,20 @@ const typed = new Typed(".typed",{
     contentType:"html"
 })
 
+punto.forEach((cadaPunto, i)=>{
+    punto[i].addEventListener("click", ()=>{
+      let position = i
+      let operacion = position * -50
+
+      grande.style.transform = `translateX(${operacion}%)`
+     
+      punto.forEach((cadaPunto, i)=>{
+          punto[i].classList.remove("activo")
+      })
+      punto[i].classList.add("activo")
+    })
+   
+})
 
 
 
