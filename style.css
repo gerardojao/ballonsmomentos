@@ -198,7 +198,7 @@ padding-left:5px;
 }
 
 .home__content--span{
-	color:var(--fifth-color);
+	color:var(--sixth-color);
 	font-weight: 700;
 	font-size: 2.5rem;
 	
@@ -1082,28 +1082,33 @@ footer .rrss a [title]{
   body{
       font-size:14px;
   }
-  .logo{
-      width: 4rem;
-  }
+.navbar__logo--a{
+	font-size: 10px
+}
   .home__content{
    display:flex;
    flex-direction: column;
    justify-content:center;
+   margin:auto;
 }
      .home__content--1{
         font-size: 2rem;
 
     }
     .home__content--2{
+        font-size: 2rem;
+      
+    }
+	.home__content--6{
         font-size: 2.5rem;
-        padding-bottom:2rem;
+      
     }
     .home__content--3{
         font-size: 1rem;
         margin-bottom:4rem;
     }
     .home__content--span{
-        color:var(--fifth-color);
+        
         font-weight: 700;
         font-size: 1.5rem;
         
@@ -1281,7 +1286,7 @@ footer .rrss a [title]{
 
 .close-btn:hover{
 	
-	color:#fbfa34;
+	color:var(--sixth-color);
 	background: none;
 
 }
