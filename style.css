@@ -1084,125 +1084,6 @@ footer .rrss a [title]{
 	
 }
 
-@media (max-width:480px){
-  /* body{
-      font-size:14px
-  } */
-  .navbar{
-	
-	  padding:10px;
-  }
-  .navbar__logoMobile{
-	  padding: 5px;
-	display:flex;
-	width: 40%;
-}
-.navbar__logoMobile h2{
-	font-size:2rem;
-	font-family:Imperial;
-} 
-
-  .navbar__logo{
-	display:none;
-  }
-
-.navbar__logo--spanMobile{
-	color: #ffc3ff;
-	font-size:2rem;
-	
-	font-family:Imperial;
-}
-  .home__content{
-   display:flex;
-   flex-direction: column;
-   justify-content:center;
-   margin:auto;
-}
-     .home__content--1{
-        font-size: 2rem;
-
-    }
-    .home__content--2{
-        font-size: 2rem;
-      
-    }
-	.home__content--6{
-        font-size: 2.5rem;
-      
-    }
-    .home__content--3{
-        font-size: 1.5rem;
-        margin-bottom:4rem;
-    }
-    .home__content--span{
-        
-        font-weight: 700;
-        font-size: 1.5rem;
-        
-    }
-    .home__content--link{
-        font-size: 1rem;
-        padding:.5rem 1rem;
-        transition: all .3s ease;
-        margin-left:auto;
-        margin-right:auto;
-
-    }
-    .home__content--link:hover{
-        color: var(--fifth-color);
-        background: none;
-         }
- 
-	.mensaje{
-		display: block;
-		color:var(--fifth-color);
-		margin-top:10px;
-		font-size: 18px;
-		position: relative;
-		
-		transition:all .5s;
-		z-index:-50;
-		top:-140px;
-		
-	}
-	.mensaje-js{
-		text-align: left;
-		display: block;
-		color:#222;
-		margin-top:10px;
-		font-size: 18px;
-		position: relative;
-		
-		transition:all .5s;
-		z-index:1;
-		top:-160px;
-	}
-	.formulario__mensaje:focus +.mensaje{
-		
-		z-index:1;
-		font-weight: 100;
-		top:-160px;
-	
-	}
-    .form__button{
-            font-size: 1rem;
-            padding:6px 18px;
-            transition: all .3s ease;
-        }
-    .form__button:hover{
-            color: var(--fifth-color);
-            background: none;
-        }
-	
-		.service__content--card{
-		
-			min-height: 180px;
-		
-		}
-	
-	
-	
-}
 
 /* scroll */
 
@@ -1322,5 +1203,167 @@ footer .rrss a [title]{
 	background: none;
 
 }
+
+
+@media (max-width:480px){
+	/* body{
+		font-size:14px
+	} */
+	.contact__container .center .content{
+  width: 90%;
+  }
+  
+  .contact__container .center .content{
+	  position: absolute;
+	  top:70%;
+	  left:50%;
+	  transform: translate(-50%,-50%);
+	  z-index:9999;
+  }
+  .content{
+	  width: 400px;
+	  height: 350px;
+	  background:#222;
+	  border-radius:5px;
+	  box-shadow: 0 2px 12px 0 lightgrey;
+	  color:#fff;
+	  transition: .3s ease-in;
+  
+  }
+  
+  .header{
+	  height:68px;
+	  background:var(--fifth-color);
+	  overflow: hidden;
+	  border-radius: 3px 3px 0 0;
+	  box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);
+	  display:flex;
+	  justify-content: center;
+	  align-items: center;
+  }
+  .header h2{
+	  font-size: 1.2rem;
+  }
+  
+  .fa-check{
+
+	  margin: 30px 0 0 120px;
+	 
+  }
+	.navbar{
+	  
+		padding:10px;
+	}
+	.navbar__logoMobile{
+		padding: 5px;
+	  display:flex;
+	  width: 40%;
+  }
+  .navbar__logoMobile h2{
+	  font-size:2rem;
+	  font-family:Imperial;
+  } 
+  
+	.navbar__logo{
+	  display:none;
+	}
+  
+  .navbar__logo--spanMobile{
+	  color: #ffc3ff;
+	  font-size:2rem;
+	  
+	  font-family:Imperial;
+  }
+	.home__content{
+	 display:flex;
+	 flex-direction: column;
+	 justify-content:center;
+	 margin:auto;
+  }
+	   .home__content--1{
+		  font-size: 2rem;
+  
+	  }
+	  .home__content--2{
+		  font-size: 2rem;
+		
+	  }
+	  .home__content--6{
+		  font-size: 2.5rem;
+		
+	  }
+	  .home__content--3{
+		  font-size: 1.5rem;
+		  margin-bottom:4rem;
+	  }
+	  .home__content--span{
+		  
+		  font-weight: 700;
+		  font-size: 1.5rem;
+		  
+	  }
+	  .home__content--link{
+		  font-size: 1rem;
+		  padding:.5rem 1rem;
+		  transition: all .3s ease;
+		  margin-left:auto;
+		  margin-right:auto;
+  
+	  }
+	  .home__content--link:hover{
+		  color: var(--fifth-color);
+		  background: none;
+		   }
+   
+	  .mensaje{
+		  display: block;
+		  color:var(--fifth-color);
+		  margin-top:10px;
+		  font-size: 18px;
+		  position: relative;
+		  
+		  transition:all .5s;
+		  z-index:-50;
+		  top:-140px;
+		  
+	  }
+	  .mensaje-js{
+		  text-align: left;
+		  display: block;
+		  color:#222;
+		  margin-top:10px;
+		  font-size: 18px;
+		  position: relative;
+		  
+		  transition:all .5s;
+		  z-index:1;
+		  top:-160px;
+	  }
+	  .formulario__mensaje:focus +.mensaje{
+		  
+		  z-index:1;
+		  font-weight: 100;
+		  top:-160px;
+	  
+	  }
+	  .form__button{
+			  font-size: 1rem;
+			  padding:6px 18px;
+			  transition: all .3s ease;
+		  }
+	  .form__button:hover{
+			  color: var(--fifth-color);
+			  background: none;
+		  }
+	  
+		  .service__content--card{
+		  
+			  min-height: 180px;
+		  
+		  }
+	  
+	  
+	  
+  }
 
 
