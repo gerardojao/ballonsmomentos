@@ -423,6 +423,10 @@ margin:auto;
 	padding-bottom:10px;
 
 }
+.service__content--card h3{
+color:#222;
+
+}
 .service__content--card .box{
 	transition: all .3s ease;
 
