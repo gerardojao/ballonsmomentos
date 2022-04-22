@@ -1266,6 +1266,9 @@ footer .rrss a [title]{
 		padding: 5px;
 	  display:flex;
 	  width: 40%;
+	
+	  justify-content: center;
+	  align-items: center;
   }
   .navbar__logoMobile h2{
 	  font-size:2rem;
@@ -1278,9 +1281,11 @@ footer .rrss a [title]{
   
   .navbar__logo--spanMobile{
 	  color: #ffc3ff;
-	  font-size:2rem;
-	  
-	  font-family:Imperial;
+	  font-size:1.8rem;
+	  padding-top:8px;
+	  font-family: 'Great Vibes', cursive;
+	 
+	
   }
 	.home__content{
 	 display:flex;
