@@ -24,7 +24,7 @@ const pModal=d.querySelector(".pattern")
 const punto = d.querySelectorAll(".punto")
 const grande = d.querySelector(".grande")
 const puntos = d.querySelector(".puntos")
-
+// const logo = document.getElementById("logo")
 
 /* menu hamburguesa*/
 
@@ -32,6 +32,7 @@ const puntos = d.querySelector(".puntos")
 panelBtn.addEventListener("click",()=>{
     menu.classList.toggle("menu--active")
    panelBtn.classList.toggle("is-active")
+//    logo.classList.toggle("menu--active")
 
     linkMenu.forEach(x=>{
         menu.addEventListener("click",e=>{
