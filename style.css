@@ -1271,7 +1271,7 @@ footer .rrss a [title]{
   } 
   
 	.navbar__logo{
-	  display:none;
+	  width: 25px;
 	}
   
   .navbar__logo--spanMobile{
