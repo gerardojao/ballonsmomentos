@@ -119,6 +119,9 @@ padding-left:5px;
   .navbar__logo--span {
 	color: var(--main-color);
   }
+  .navbar__logo img {
+	width: 180px;
+  }
 /* hambur */
 
 .is-active{
@@ -190,6 +193,13 @@ padding-left:5px;
  font-family: "Imperial";
  text-align: center;
  margin-bottom: 30px;;
+ display:flex;
+
+ justify-content: center;
+ align-items: center;
+}
+.home__content--2 span{
+	margin-right: 20px;
 }
 .home__content--6{
 	font-size: 4rem;
@@ -487,26 +497,11 @@ color:#222;
 	font-size: 20px;
 	
 	width:50%;
-  }
- 
- 
-  /* .portfolio__container--carousel {
-	display: grid; 
-	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-	gap: 2px; 
-	 max-width: 1300px;
-	margin: auto;
-	
-  } */
-  .portfolio__container--carousel {
-	/* background: #222;
-	border-radius: 6px;
-	padding: 25px 35px;
-	text-align: center;
-	transition: all 0.3s ease; */
-	/*******prueba cararusel********/
+  } 
+   .portfolio__container--carousel {
+
 	width: 90%;
-	max-width: 50rem;
+	max-width: 30rem;
 	margin:auto;
 	padding: 2rem;
 	background-color: #222;
@@ -1379,4 +1374,5 @@ footer .rrss a [title]{
 	  
   }
 
+  
 
